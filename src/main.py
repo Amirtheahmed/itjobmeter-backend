@@ -67,7 +67,8 @@ def rebase_stats() -> None:
     sync_stats(main_db)
 
     # update job count in readme
-    update_job_count_badge(len(all_jobs))
+    # Disabled since we migrated to cluster
+    # update_job_count_badge(len(all_jobs))
 
 
 def sync_stats(main_db: Database):
