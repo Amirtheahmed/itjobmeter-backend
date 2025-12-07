@@ -160,7 +160,7 @@ def main():
         sync_stats(main_db)
 
         # update job count in readme
-        update_job_count_badge(new_db_size)
+        #update_job_count_badge(new_db_size)
 
 
 if __name__ == "__main__":
